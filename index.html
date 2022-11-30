@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!--Import Google Icon Font-->
     <link
@@ -61,7 +61,7 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="ImgsGta/gta1.jpeg" />
+          <img src="ImgsGta/gta1.jpeg" alt="Slider 1" />
           <!-- random image -->
           <div class="caption center-align">
             <h2 class="indigo text-lighten-1">
@@ -78,7 +78,7 @@
           </div>
         </li>
         <li>
-          <img src="ImgsGta/gta8.jpeg" />
+          <img src="ImgsGta/gta8.jpeg" alt="Slider 2" />
           <!-- random image -->
           <div class="caption center-align">
             <h2 class="grey">
@@ -92,7 +92,7 @@
           </div>
         </li>
         <li>
-          <img src="ImgsGta/gta10.jpeg" />
+          <img src="ImgsGta/gta10.jpeg" alt="slider 3" />
           <!-- random image -->
           <div class="caption center-align">
             <h2 class="indigo">Trading & Analyzing The Economy</h2>
@@ -112,7 +112,7 @@
     </div>
 
     <!--Section: Icon Boxes 1-->
-    <section class="section section-icons indigo center">
+    <section class="section section-icons indigo darken-4 center">
       <div class="container">
         <div class="row">
           <div class="col s12 m4">
@@ -213,127 +213,83 @@
             </div>
           </div>
         </div>
-
-        <!--Social Media: Contacts-->
-        <section
-          class="section section-follow indigo darken-4 white-text center"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col s12">
-                <h4>Follow Germain Tech Academy</h4>
-                <p>Follow us on social media for special offers</p>
-                <a href="#" class="white-text">
-                  <i class="fab fa-facebook fa-4x"></i>
-                </a>
-                <a href="#" class="white-text">
-                  <i class="fab fa-twitter fa-4x"></i>
-                </a>
-                <a href="#" class="white-text">
-                  <i class="fab fa-linkedin fa-4x"></i>
-                </a>
-                <a href="#" class="white-text">
-                  <i class="fab fa-github fa-4x"></i>
-                </a>
-              </div>
+      </div>
+      <!--Social Media: Contacts-->
+      <section class="section section-follow indigo darken-4 white-text center">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4>Follow Germain Tech Academy</h4>
+              <p>Follow us on social media for special offers</p>
+              <a href="#" class="white-text">
+                <i class="fab fa-facebook fa-4x"></i>
+              </a>
+              <a href="#" class="white-text">
+                <i class="fab fa-twitter fa-4x"></i>
+              </a>
+              <a href="#" class="white-text">
+                <i class="fab fa-linkedin fa-4x"></i>
+              </a>
+              <a href="#" class="white-text">
+                <i class="fab fa-github fa-4x"></i>
+              </a>
             </div>
-          </div>
-        </section>
-
-        <div class="col s12 m6">
-          <div class="card-panel indigo">
-            <h5>Please fill out this form</h5>
-            <div class="input-field">
-              <input type="text" placeholder="Name" />
-            </div>
-            <div class="input-field">
-              <input type="text" placeholder="Email" />
-            </div>
-            <div class="input-field">
-              <textarea
-                class="materialize-textarea"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <input type="submit" value="Submit" class="btn" />
           </div>
         </div>
+      </section>
 
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card-panel indigo">
-              <h5>Please fill out this form</h5>
-              <div class="input-field">
-                <input type="text" placeholder="Name" />
+      <!--Section: Icon Boxes 2-->
+      <div class="section section-icons indigo darken-4 center">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card-panel indigo">
+                <i class="material-icons large white-text">code</i>
+                <p class="white-text">Learn Coding & Programming</p>
               </div>
-              <div class="input-field">
-                <input type="text" placeholder="Email" />
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel indigo">
+                <i class="material-icons large white-text">memory</i>
+                <p class="white-text">Learn The Benefits Of Big Data</p>
               </div>
-              <div class="input-field">
-                <textarea
-                  class="materialize-textarea"
-                  placeholder="Message"
-                ></textarea>
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel indigo">
+                <i class="material-icons large white-text">wb_incandescent </i>
+                <p class="white-text">Learn To Use Powerful Technology</p>
               </div>
-              <input type="submit" value="Submit" class="btn" />
             </div>
           </div>
         </div>
       </div>
-      <div class="container"></div>
+
+      <!--Footer-->
+      <footer class="section indigo darken-4">
+        <p class="flow-text white-text">Germain Tech Academy &copy; 2022</p>
+      </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script>
+        //Sidenav
+        const sideNav = document.querySelector(".sidenav");
+        M.Sidenav.init(sideNav, {});
+
+        //Slider
+        const slider = document.querySelector(".slider");
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 500,
+          transition: 500,
+          interval: 6000,
+        });
+
+        //Scrollspy
+        const ss = document.querySelectorAll(".scrollspy");
+        M.ScrollSpy.init(ss, {});
+      </script>
     </section>
-
-    <!--Section: Icon Boxes 2-->
-    <section class="section section-icons indigo darken-4 center">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="card-panel indigo">
-              <i class="material-icons large white-text">code</i>
-              <p class="white-text">Learn Coding & Programming</p>
-            </div>
-          </div>
-          <div class="col s12 m4">
-            <div class="card-panel indigo">
-              <i class="material-icons large white-text">memory</i>
-              <p class="white-text">Learn The Benefits Of Big Data</p>
-            </div>
-          </div>
-          <div class="col s12 m4">
-            <div class="card-panel indigo">
-              <i class="material-icons large white-text">wb_incandescent </i>
-              <p class="white-text">Learn To Use Powerful Technology</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Footer-->
-    <footer class="section indigo darken-4">
-      <p class="flow-text white-text">Germain Tech Academy &copy; 2022</p>
-    </footer>
-
-    <!--JavaScript at end of body for optimized loading-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-      //Sidenav
-      const sideNav = document.querySelector(".sidenav");
-      M.Sidenav.init(sideNav, {});
-
-      //Slider
-      const slider = document.querySelector(".slider");
-      M.Slider.init(slider, {
-        indicators: false,
-        height: 500,
-        transition: 500,
-        interval: 6000,
-      });
-
-      //Scrollspy
-      const ss = document.querySelectorAll(".scrollspy");
-      M.ScrollSpy.init(ss, {});
-    </script>
   </body>
 </html>
