@@ -1,6 +1,6 @@
 # **Germain Tech Academy**
 
-## _Static Webpage Built Using Materialize_
+## _A Modern Responsive Webpage Built Using Materialize CSS Framework_
 
 ---
 
