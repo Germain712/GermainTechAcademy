@@ -5,5 +5,3 @@
 ---
 
 ## [Click here →] (https://reubengermain.com/ "Link to Webpage")
-
-## ![Image Link 1] ()
